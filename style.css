@@ -52,6 +52,7 @@ header{
     left: 0;  
     z-index: 100;
     background-color: lightgray;
+    box-shadow: 4px 4px 4px #e9e6e6;
 }
 .nav{
     display: flex;
@@ -239,6 +240,9 @@ header{
     color: black;
     font-weight: 600;
 }
+a:hover{
+    color: grey;
+}
 .offers{
     margin-top: 100px;
     margin-bottom: 100px;
@@ -265,6 +269,7 @@ header{
 }
 .new-container{
         grid-template-columns: repeat(3,1fr);
+    margin: 0px 250px;
     }
 .new-arrival{
     width: 100%;
