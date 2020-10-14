@@ -213,9 +213,9 @@ header{
     display: flex;
     justify-content: center;
     background-color: lightgrey;
+    padding:10px 10px 0px 10px;
 }
 .featured-img{
-        padding: 20px;
         width: 200px;
         height: 200px;
     }
@@ -230,14 +230,16 @@ header{
 }
 .featured-data{
     text-align: center;
+    background-color:#F5F5F5;
 }
 .featured-name{
     margin-bottom: .5rem;
     text-transform: uppercase;
     font-size: .938rem;
+    font-family: 'Playfair Display',serif;
 }
 .featured-price{
-    color: black;
+    color: rgb(35,35,83);
     font-weight: 600;
 }
 a:hover{
