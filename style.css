@@ -51,7 +51,6 @@ header{
     top: 0;
     left: 0;  
     z-index: 100;
-    background-color: lightgray;
     box-shadow: 4px 4px 4px #e9e6e6;
 }
 .nav{
